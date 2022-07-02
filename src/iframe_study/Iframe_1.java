@@ -10,7 +10,7 @@ public class Iframe_1 {
 	{
 		System.setProperty("webdriver.chrome.driver", "D:\\Users\\SUHANI\\velocity\\z Application\\chromedriver.exe");
 		 WebDriver driver = new ChromeDriver();
-		 
+		 //update by suhani
 		 driver.get("https://vctcpune.com/selenium/practice.html");
 		 driver.manage().window().maximize();
 		 Thread.sleep(1000);
